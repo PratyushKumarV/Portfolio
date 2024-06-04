@@ -1,10 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pratyush Kumar</title>
+        <style>
+            body {
+                margin:0;
+                padding:0;
+                height:100%;
+                overflow:auto;
+            }
+            .content{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                padding-top:25px;
+                flex-direction:row;
+                padding-bottom:25px;
+            }
+            .text1{
+                text-align:center;
+                margin-left:20px;
+                font-size:2em;
+                font-family:cursive;
+            }
+            .text2{
+                text-align:left;
+                margin-left:100px;
+                font-size:1.5em;
+                margin-right:30px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .text3{
+                text-align:left;
+                margin-right:100px;
+                font-size:1.5em;
+                margin-left:30px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .text4{
+                text-align:center;
+                margin-left:100px;
+                font-size:1.5em;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .highlight{
+                font-size:1.2em;
+            }
+            .arrow{
+                margin-left:20px;
+                width:100px;
+                height:auto;
+            }
+            .arrow img{
+                width:100%;
+                height:auto;
+            }
+            .vit_surprise{
+                margin-left:20px;
+                margin-right:100px;
+                width:auto;
+            }
+            .cs{
+                margin-right:20px;
+                margin-left:100px;
+                width:100%;
+            }
+            img{
+                border-radius:35px;
+                overflow:hidden;
+            }
+            @keyframes fadeIn{
+                0% {opacity:0;}
+                100% {opacity:1}
+            }
+            .animated-element{
+                animation: fadeIn 1s ease-in-out;
+            }
+            /* selectors for social media handles*/
+            .contact-section{
+                background-color:#f8f9fa;
+                text-align:center;
+                padding:auto;
+                border:1px solid #e7e7e7
+            }
+            .contact-details{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:center;
+                align-items:center;
+                gap:50px;
+            }
+            .contact-item{
+                display:flex;
+                align-items:center;
+                gap:10px;
+                font-size:1.2em;
+                font-family:Arial, Helvetica, sans-serif
+            }
+            .contact-item img{
+                width:24px;
+                height:24px;
+            }
+            .contact-link{
+                text-decoration:none;
+                color:#007bff
+            }
+        </style>
     </head>
     <body>
-        <img>
-        
+        <div class="content animated-element">
+            <img src="/me.png" alt="Description" height="400">
+            <div class="arrow">
+                <img src="/arrow.png" alt="Arrow pointing at image">
+            </div>
+            <div class="text1">
+                <span>This Dumb Dude is<br><span class="highlight">ME</span></span>
+            </div>
+        </div>
+        <div class="content animated-element">
+            <div class="text2">
+                <h2>I'm PRATYUSH KUMAR</h2><hr>
+            </div>
+        </div>
+        <div class="content animated-element">
+            <p style="text-align:center; font-size:1.5em; margin-left:100px; margin-right:100px;">
+                As a person I love learning things anew. But I am a lazy guy. Whenever I try to learn something, there is always
+                that initial barrier that I have to break through which when I do and get into a flow state, I can be quite 
+                productive. I love reading books, especially fiction because it transports me entirely to the author's world. 
+                I am a Potter-head and I love the Harry Potter franchise. I have just started getting into non-fiction reading.
+                I'm also a cinephile and love getting into the nityy-gritty of the plot details of a film
+                and thought processes of film writers and directors.
+            </p>
+        </div>
+        <div class="content animated-element">
+            <div class="text2">
+                <p>I'm currently pursuing B.Tech CSE with specialization in IoT from VIT University Vellore. 
+                    As a freshman, I didn't do much. I attended classes, gave my exams, hung out with friends 
+                    and just like that my first year flew by. I did manage to get 3rd rank in my first sem but
+                    I'd be really <span class="highlight">STOOPID</span> to brag about it because I barely had any
+                    classes in my first sem (16.5 Credits, COME ON).
+                 </p>
+            </div>
+            <div class="vit_surprise">
+                <img src="/vit.png", alt="VIT", height="300">
+            </div>
+        </div>
+        <div class="content animated-element">
+            <div class="cs">
+                <img src="/cs.png", alt="CS", height="300">
+            </div>
+            <div class="text3">
+                I attended high school at CS Academy, Erode and the 2 years I studied there were rough because not only
+                did I have JEE training but also the pandemic worsened the situation (Online classes are THE WORST). 
+                Somehow I managed to get school second rank in board exams and a decent percentile in my JEE Exam.
+            </div>
+        </div>
+        <div class="content animated-element">
+            <div class="text2">
+                <p>I did my primary and seconday schooling from The Barathi Vidya Bhavan, Erode. My time there was simply the
+                    best. I didn't have much academic pressure and I had time to try out a lot of things. I went to dance classes
+                    and participated in competitions. There were also several essay writing and creative writing contests and oratoricals
+                    which I loved participating in.
+                </p>
+            </div>
+            <div class="vit_surprise">
+                <img src="/bvb.png", alt="The BVB", height="300">
+            </div>
+        </div>
+        <div class="content animated-element">
+            <div class="text4">
+                <p>Scan this for a surpsrise</p>
+            </div>
+            <div class="vit_surprise">
+                <img src="/Surprise.png", alt="Surprise", height="300">
+            </div>
+        </div>
+        <div class="contact-section">
+            <div class="contact-details">
+                <div class="contact-item">
+                    <img src="telephone.png", alt="Phone icon">
+                    <span>8778348357</span>
+                </div>
+                <div class="contact-item">
+                    <img src="/mail.png", alt="Email icon">
+                    <a class="contact-link" href="mailto:pratyushkumarvwork@gmail.com">pratyushkumar.v2023@vitstudent.ac.in</a>
+                </div>
+                <div class="contact-item">
+                    <img src="/linkedin.png", alt="LinkedIn icon">
+                    <a class="contact-link" href="https://www.linkedin.com/in/pratyush-kumar-venkatachalam-869329281/" target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <img src="/instagram.png", alt="Instagram icon">
+                    <a class="contact-link" href="https://www.instagram.com/pratyushkumarv/?next=%2F&hl=en" target="_blank">
+                        Instagram
+                    </a>
+            </div>
+        </div>
     </body>
 </html>
